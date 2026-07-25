@@ -1,0 +1,250 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    font-family:Arial, sans-serif;
+
+    background: linear-gradient(135deg,#5c695c02,#155e9b ,#5c695c02);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+
+}
+
+
+
+#total{
+
+    width:430px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+}
+
+
+
+h1{
+
+    text-align:center;
+
+    color:#084170;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.input-box{
+
+    width:100%;
+
+    padding:12px 15px;
+
+    margin:8px 0;
+
+    border:2px solid #2196f3;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+
+
+.input-box:focus{
+
+    border-color:#084170;
+
+    box-shadow:0 0 8px rgba(8,65,112,.4);
+
+}
+
+
+
+
+button{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:linear-gradient(135deg,#5c695c02,#155e9b ,#5c695c02);
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+button:hover{
+
+    background:#0b5ca5;
+
+    transform:scale(1.02);
+
+}
+
+
+
+
+
+.card{
+
+    margin-top:25px;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    background: linear-gradient(135deg,#5c695c02,#155e9b ,#5c695c02);
+    box-shadow:0 5px 15px rgba(0,0,0,.25);
+
+}
+
+
+
+
+.card h2{
+
+    text-align:center;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+.row{
+
+    display:flex;
+
+    align-items:center;
+
+    margin:12px 0;
+
+}
+
+
+
+
+
+.title{
+
+    width:60px;
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+
+
+
+.colon{
+
+    width:15px;
+
+    color:white;
+
+    font-weight:bold;
+
+    text-align:center;
+
+}
+
+
+
+
+.output{
+
+    flex:1;
+
+    padding:10px;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+    background:white;
+
+    color:#084170;
+
+    font-weight:bold;
+
+}
+
+
+
+
+
+#greeting{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+}
+
+
+
+
+@media(max-width:500px){
+
+
+    #total{
+
+        width:100%;
+
+    }
+
+
+}

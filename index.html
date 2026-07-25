@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student ID Card</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div id="total">
+
+
+    <h1>🎓 Student ID Card</h1>
+
+
+    <!-- Input Section -->
+
+    <input 
+    class="input-box" 
+    type="text" 
+    id="name" 
+    placeholder="Enter Student Name">
+
+
+    <input 
+    class="input-box" 
+    type="text" 
+    id="class" 
+    placeholder="Enter Class">
+
+
+    <input 
+    class="input-box" 
+    type="text" 
+    id="roll" 
+    placeholder="Enter Roll">
+
+
+
+    <button onclick="showCard()">
+
+        Generate ID Card
+
+    </button>
+
+
+
+
+    <!-- Student Card -->
+
+    <div class="card">
+
+
+        <h2>
+            Student Information
+        </h2>
+
+
+
+
+        <div class="row">
+
+            <span class="title">
+                Name
+            </span>
+
+            <span class="colon">
+                :
+            </span>
+
+            <input 
+            class="output" 
+            type="text" 
+            id="studentName" 
+            readonly>
+
+        </div>
+
+
+
+
+
+        <div class="row">
+
+
+            <span class="title">
+                Class
+            </span>
+
+
+            <span class="colon">
+                :
+            </span>
+
+
+            <input 
+            class="output" 
+            type="text" 
+            id="studentClass" 
+            readonly>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="row">
+
+
+            <span class="title">
+                Roll
+            </span>
+
+
+            <span class="colon">
+                :
+            </span>
+
+
+            <input 
+            class="output" 
+            type="text" 
+            id="studentRoll" 
+            readonly>
+
+
+        </div>
+
+
+
+
+
+        <!-- Last Line Welcome -->
+
+        <p id="greeting">
+
+            Welcome Student
+
+        </p>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
